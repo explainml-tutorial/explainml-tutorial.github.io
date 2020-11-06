@@ -1,0 +1,9 @@
+theme: jekyll-theme-cayman
+title: "Explaining Machine Learning Predictions: State-of-the-art, Challenges, and Opportunities"
+description: 
+- NeuRIPS 2020 workshop, December 7, 2020, Virtual.
+- Virtual
+buttons:
+  Speakers: '#speakers'
+  Schedule: '#schedule'
+  Slides: '#slides'
