@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 permalink: /neurips20
 title: NeurIPS 2020 Tutorial
 ---
@@ -14,8 +15,13 @@ The live tutorial will take place on **Monday, December 7th, 2020**, at 1:30pm P
 
 # Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EbpU4p_0hes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include video id="EbpU4p_0hes" provider="youtube" %}
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/EbpU4p_0hes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 # Slides
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRXRfXCI_tuynZHD6wkoHO2TNh3WVPK1Q0IkEzWdHAtzm5jEEbMWbvS5eAvFeJuFS0IO01qLMGi7diT/embed?start=false&loop=false&delayms=3000" frameborder="0" width="560" height="315" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<div style="position: relative;    width: 100%;    padding-top: 60%;    overflow: hidden;">
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRXRfXCI_tuynZHD6wkoHO2TNh3WVPK1Q0IkEzWdHAtzm5jEEbMWbvS5eAvFeJuFS0IO01qLMGi7diT/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;"></iframe>
+
+</div>

@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 permalink: /aaai21
 title: AAAI 2021 Tutorial
 ---
