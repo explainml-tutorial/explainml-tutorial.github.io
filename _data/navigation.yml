@@ -1,0 +1,9 @@
+main:
+  - title: "Speakers"
+    url: '#speakers'
+  - title: "NeurIPS"
+    url: '/neurips20'
+  - title: "AAAI"
+    url: '/aaai21'
+  # - title: "Tags"
+  #   url: /tags/

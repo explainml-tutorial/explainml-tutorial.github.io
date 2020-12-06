@@ -1,9 +1,115 @@
-theme: jekyll-theme-cayman
-title: "Explaining Machine Learning Predictions: State-of-the-art, Challenges, and Opportunities"
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: "Explaining Machine Learning Predictions"
+subtitle: State-of-the-art, Challenges, and Opportunities
+# email: sameer@uci.edu
 description: 
 - NeuRIPS 2020 workshop, December 7, 2020, Virtual.
 - Virtual
-buttons:
-  Speakers: '#speakers'
-  Schedule: '#schedule'
-  Slides: '#slides'
+# twitter_username: username
+# github_username: uci-ml-repo
+minimal_mistakes_skin: contrast
+# search: true
+# repository: "ucinlp/covid19"
+# logo: "/assets/images/uci-nlp-logo-large.png"
+breadcrumbs: true  # disabled by default
+# og_image: /assets/images/uci-nlp-logo-large.png
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+  - _pages
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-redirect-from
+
+footer:
+  links:
+    - label: "@hima_lakkaraju"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/hima_lakkaraju"
+    - label: "@julius_adebayo"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/julius_adebayo"
+    - label: "@sameer_"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/sameer_"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/uci-ml-repo"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      classes: wide
+      author_profile: false
+      read_time: false
+      comments: false
+      share: true
+      related: false
+      paginator: false
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      classes: wide
+      author_profile: false
+      paginator: false
+      share: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+backend: "http://127.0.0.1:2020"

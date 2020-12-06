@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:5000/aaai21</loc>
+</url>
+<url>
+<loc>http://localhost:5000/</loc>
+</url>
+<url>
+<loc>http://localhost:5000/neurips20</loc>
+</url>
+</urlset>
