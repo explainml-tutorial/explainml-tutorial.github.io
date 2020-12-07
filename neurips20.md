@@ -29,6 +29,7 @@ The live tutorial will take place on **Monday, December 7th, 2020**, at 1:30pm P
 
 </div>
 
+
 # Annotated Bibliography and Resources
 In this section, we provide a pointer to relevant papers for the content of the tutorial. Due to time and space limitation, we were not able to discuss all relevant papers in the tutorial, but here, we provide an expanded overview of relevant literature. We are happy to update the material here with pointers to material that we might have missed. We will proceed according to the agenda discussed in the tutorial.
 
