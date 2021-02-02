@@ -9,6 +9,12 @@ Welcome to the accompanying page for the AAAI 2021 tutorial on **"Explaining Mac
 
 The live tutorial will take place on **Wednesday, February 3rd, 2021**, at noon PT.
 
+<a class="btn btn--primary" href="https://virtual.2021.aaai.org/tutorial_AQ1.html">Virtual Site</a>
+
+
+# Video
+
+{% include video id="EA2KvSSC3Bk" provider="youtube" %}
 
 # Slides
 
