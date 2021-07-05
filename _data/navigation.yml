@@ -3,6 +3,8 @@ main:
     url: '/neurips20'
   - title: "AAAI"
     url: '/aaai21'
+  - title: "CPAIOR"
+    url: '/cpaior21'
   - title: "Speakers"
     url: '#speakers'
   - title: "Bibliography"

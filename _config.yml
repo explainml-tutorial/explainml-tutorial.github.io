@@ -13,12 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Explaining Machine Learning Predictions"
+title: Explaining Machine Learning Predictions
 subtitle: State-of-the-art, Challenges, and Opportunities
 # email: sameer@uci.edu
 description: 
-- NeuRIPS 2020 workshop, December 7, 2020, Virtual.
-- Virtual
+- Webpage for AAAI 2021, NeuRIPS 2020, and CPAIOR 2021 tutorials.
 # twitter_username: username
 # github_username: uci-ml-repo
 minimal_mistakes_skin: contrast
@@ -111,5 +110,3 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-
-backend: "http://127.0.0.1:2020"
