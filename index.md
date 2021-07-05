@@ -39,7 +39,17 @@ venue_row:
   - image_path: assets/images/aaai.png
     alt: "AAAI 2021"
     title: "AAAI 2021"
-    excerpt: "Coming Soon"
+    # excerpt: "Coming Soon"
+    url: "/aaai21"
+    btn_label: "Materials"
+    btn_class: "btn--primary"
+  - image_path: assets/images/cpaior.png
+    alt: "CPAIOR 2021"
+    title: "CPAIOR 2021"
+    # excerpt: "Coming Soon"
+    url: "/cpaior21"
+    btn_label: "Materials"
+    btn_class: "btn--primary"
 ---
 
 As machine learning is deployed in all aspects of society, it has become increasingly important to ensure stakeholders understand and trust these models. Decision makers must have a clear understanding of the model behavior so they can diagnose errors and potential biases in these models, and decide when and how to employ them. However, most accurate models that are deployed in practice are not interpretable, making it difficult for users to understand where the predictions are coming from, and thus, difficult to trust. Recent work on explanation techniques in machine learning offers an attractive solution: they provide intuitive explanations for “any” machine learning model by approximating complex machine learning models with simpler ones.
